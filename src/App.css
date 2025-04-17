@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+form input {
+  flex-basis: 60%;
+}
+form button {
+  flex-basis: 40%;
+}
+
+.toDolist {
+  width: 100%;
+}
+
+.toDolist ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  
+}
+
+.toDolist ul span {
+  color: #fff;
+  border-radius: 1rem;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.toDolist ul li {
+  background-color: black;
+  color: #fff;
+  position: relative;
+  margin-bottom: 10px;
+  height: 30px;  
+  border-top: 1px solid #ccc;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.App {
+  width: 80vw;
+  max-width: 100%;
+}
+
+.completedTask {
+  text-decoration: line-through;
+  color: #ccc;
+  background-color: #41c07d!important;
+}
+
